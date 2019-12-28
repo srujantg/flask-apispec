@@ -1,6 +1,30 @@
 Changelog
 ---------
 
+0.8.4 (2019-12-04)
+******************
+
+Bug fixes:
+
+* Fix passing ``default_in`` argument when generating parameters (:issue:`165`).
+  Thanks :user:`d42` for reporting and thanks :user:`zzz4zzz` for the fix.
+
+0.8.3 (2019-09-17)
+******************
+
+Bug fixes:
+
+* Fix compatibility with apispec>=3.0.0 (:issue:`163`).
+  Thanks :user:`decaz`.
+
+0.8.2 (2019-09-16)
+******************
+
+Bug fixes:
+
+* Handle multiple locations when using use_kwargs multiple times on the same view (:issue:`78`).
+  Thanks :user:`norbert-sebok` for the PR and thanks :user:`shrsubra` for updating it.
+
 0.8.1 (2019-06-22)
 ******************
 
